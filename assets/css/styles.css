@@ -1,0 +1,194 @@
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: roboto-black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto-light;
+}
+body{
+    width: 1000px;
+    margin: auto;
+    border: solid 1px #149ee9;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*border: solid 1px #149ee9;*/
+    height:50px;
+    align-items: center;
+}
+.img01, .img02, .img03 > img{
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
+.img01 .menu{
+    margin-right: 25px;
+}
+.img02{
+    width:400px;
+    display: flex;
+    align-items: center;
+}
+
+.img02 input{
+    height: 35px;
+    width: 300px;
+}
+.img02 .caixa{
+    display: flex;
+    background-color: #f4efef;
+    height: 35px;
+    width: 40px;
+    align-items: center;
+    border: solid 1px #aea9a9;
+}
+.img02 .search{
+    width: 20px;
+    margin: auto;
+ }
+ 
+.img03{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    min-height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.col-tela{
+    width: 740px;
+}
+.col-lista{
+    width: 260px;
+}
+main .screen-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 65px;
+    height: 530px;
+    width: 650px;
+}
+.screen-info .screen{
+    width: 650px;
+    height: 370px;
+}
+.screen-info .title{
+    display: flex;
+    align-items: end;
+    width: 650px;
+    height: 30px;
+    font-family: roboto-black;
+    font-size: 14px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 620px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: "roboto-black";
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 80px;
+}
+.details h6{
+    font-family: roboto-black;
+}
+.details p{
+    padding-top: 10px;
+    width: 60%;
+    font-family: roboto-light;
+    font-size:11px
+}
+.diologo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.diologo img{
+    width:30px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    font-size: 10px;
+}
+.data h6{
+    font-weight: 900;
+    font-size: 12px;
+}
+button{
+    padding: 7px 18px;
+    background-color: #c00;
+    color:white;
+    border: solid 1px #c00;
+    font-size: 8px;
+    font-weight: 600;
+}
+.like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.dislike{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.compartilhar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.sugestao{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+.sugestao img{
+    width:125px;
+}
+.sugestao-details h6{
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 9px;
+    font-family: roboto-black;
+}
+.sugestao-details p{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 8px;
+    width: 90px;
+}
